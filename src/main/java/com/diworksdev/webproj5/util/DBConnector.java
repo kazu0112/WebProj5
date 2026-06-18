@@ -23,7 +23,7 @@ public class DBConnector {
 	 */
 	private static String password = "root";
 	
-	public Connection grtConnection() {
+	public Connection getConnection() {
 		Connection con = null;
 		try {
 			Class.forName(driverNmae);
