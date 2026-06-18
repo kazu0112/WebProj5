@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "styleshhet" type = "text/css" href = "./css/style.css">
+<link rel = "stylesheet" type = "text/css" href = "./css/style.css">
 <title>HelloStruts</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 <table>
 	<tbody>
 	<tr>
-		<th>USERUD</th>
+		<th>USERID</th>
 		<th>USERNAME</th>
 		<th>PASSWORD</th>
 		<TH>RESULT</TH>
@@ -25,7 +25,7 @@
 		<td><s:property value = "password"/></td>
 		<td><s:property value = "result"/></td>
 	</tr>
-	<s:iterator>
+	</s:iterator>
 	</tbody>
 </table>
 </body>
